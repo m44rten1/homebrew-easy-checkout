@@ -6,10 +6,10 @@ class EasyCheckout < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/m44rten1/easy-checkout/releases/download/v#{version}/easy-checkout-v#{version}-darwin-arm64"
-    sha256 "9e415f4e53732165032c0736b9fb5e2d73c11c2c845183f96caff32fc7a6dc6f"
+    sha256 "11dee0e4a40c2d3726ab8d6ec26a457542cc27cb9c9a8ae03d9a038682c8b459"
   else
     url "https://github.com/m44rten1/easy-checkout/releases/download/v#{version}/easy-checkout-v#{version}-darwin-amd64"
-    sha256 "59b32e3f6c0e65be4fb1de4aade305c5f681b87c6054ee672f94ec9da4647283"
+    sha256 "971c214ce200106e23dd6c900ab4875bdf8bf1813b3a0f4eb36e67abf6b46a5c"
   end
 
   def install
