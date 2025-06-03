@@ -1,15 +1,15 @@
 class EasyCheckout < Formula
   desc "CLI tool for managing git branches and checkouts"
   homepage "https://github.com/m44rten1/easy-checkout"
-  version "1.2.3"
+  version "1.2.4"
   license "MIT"
 
   if Hardware::CPU.arm?
     url "https://github.com/m44rten1/easy-checkout/releases/download/v#{version}/easy-checkout-v#{version}-darwin-arm64"
-    sha256 "8355c5571d14cb6038c4312f5b722f5e3388c0395825942a48eeb82348709130"
+    sha256 "3f3bf0dc6374411ed8d7ed8298dc604c68be134b7405324d373c43eab15eb4cb"
   else
     url "https://github.com/m44rten1/easy-checkout/releases/download/v#{version}/easy-checkout-v#{version}-darwin-amd64"
-    sha256 "b2c221c5f6ab2221896c1f604f6a499cb4c2d957bccc21468f5769dce1f18b06"
+    sha256 "154a5ccec67a0199a195ddb4dc7b0127e42f3e5ffcd777984b5a41daa56813f1"
   end
 
   def install
