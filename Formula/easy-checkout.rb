@@ -13,7 +13,7 @@ class EasyCheckout < Formula
   end
 
   def install
-    binary_name = Hardware::CPU.arm? ? "easy-checkout-v#{version}-darwin-arm64" : "easy-checkout-v#{version}-darwin-amd64"
+    binary_name = Hardware::CPU.arm? ? "easy-checkout-#{version}-darwin-arm64" : "easy-checkout-#{version}-darwin-amd64"
     bin.install binary_name => "easy-checkout"
   end
 
