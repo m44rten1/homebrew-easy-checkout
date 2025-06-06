@@ -12,6 +12,15 @@ brew tap m44rten1/easy-checkout
 brew install easy-checkout
 ```
 
+## Updating to a New Version
+
+To update to the latest version:
+
+```bash
+brew unlink easy-checkout
+brew install easy-checkout
+```
+
 ## Development
 
 To test the formula locally:
